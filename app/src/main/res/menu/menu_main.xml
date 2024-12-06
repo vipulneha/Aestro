@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/termsandcondition"
+        android:title="Terms and Condition" />
+    <item
+        android:id="@+id/privacypolicy"
+        android:title="Privacy Policy" />
+    <item
+        android:id="@+id/other"
+        android:title="Other" />
+</menu>

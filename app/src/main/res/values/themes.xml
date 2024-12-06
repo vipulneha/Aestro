@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Aestro" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Aestro" parent="Base.Theme.Aestro" />
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your primary color -->
+        <item name="colorPrimary">@color/primary_yellow</item>
+        <item name="colorPrimaryDark">@color/primary_yellow</item>
+        <item name="colorAccent">@color/primary_yellow</item>
+    </style>
+</resources>

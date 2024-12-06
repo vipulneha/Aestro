@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light_yellow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title Section -->
+        <TextView
+            android:id="@+id/titleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_background_yellow"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="User Information"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- First Name -->
+        <TextView
+            android:id="@+id/firstNameView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/textview_background_yellow"
+            android:padding="12dp"
+            android:text="First Name"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <!-- Surname -->
+        <TextView
+            android:id="@+id/surnameView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/textview_background_yellow"
+            android:padding="12dp"
+            android:text="Surname"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <!-- Date of Birth -->
+        <TextView
+            android:id="@+id/dateOfBirthView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/textview_background_yellow"
+            android:padding="12dp"
+            android:text="Date of Birth"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <!-- Time of Birth -->
+        <TextView
+            android:id="@+id/timeOfBirthView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/textview_background_yellow"
+            android:padding="12dp"
+            android:text="Time of Birth"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <!-- Place of Birth -->
+        <TextView
+            android:id="@+id/placeOfBirthView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/textview_background_yellow"
+            android:padding="12dp"
+            android:text="Place of Birth"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <!-- State -->
+        <TextView
+            android:id="@+id/stateView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/textview_background_yellow"
+            android:padding="12dp"
+            android:text="State"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <!-- Country -->
+        <TextView
+            android:id="@+id/countryView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/textview_background_yellow"
+            android:padding="12dp"
+            android:text="Country"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <!-- Divider Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/darker_gray" />
+
+        <!-- Astrology Information -->
+        <TextView
+            android:id="@+id/aes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Your Astrology for today is"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aestroDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/title_background_yellow"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Astrology Details"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Copy Astrology Button -->
+        <Button
+            android:id="@+id/coppyAestro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_background_yellow"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Copy Astrology"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Divider Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/darker_gray" />
+
+        <!-- Share Section -->
+        <TextView
+            android:id="@+id/shareTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Share your astrology on social apps"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <!-- Social Media Sharing Buttons -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <!-- Buttons with Yellow Backgrounds for Social Media -->
+                <Button
+                    android:id="@+id/btnShareWhatsApp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/button_whatsapp_background"
+                    android:padding="12dp"
+                    android:text="WhatsApp"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnShareInstagram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/button_instagram_background"
+                    android:padding="12dp"
+                    android:text="Instagram"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnShareLinkedIn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/button_linkedin_background"
+                    android:padding="12dp"
+                    android:text="LinkedIn"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnFacebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/button_facebook_background"
+                    android:padding="12dp"
+                    android:text="Facebook"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnShareOther"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/button_other_background"
+                    android:padding="12dp"
+                    android:text="Other"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>
